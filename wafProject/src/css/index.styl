@@ -1,0 +1,15 @@
+$psPixels = 1242
+rem(val, psPixels = $psPixels)
+    unit(round(val / (psPixels / 20 ), 4), 'rem')
+body{
+   background #f00
+
+   #app{
+   	   width 20rem
+   	   height rem(84)
+   	   background rgba(122, 125, 0, 0.5)
+   	   text-align center
+   	   color #fff
+   	   line-height rem(84)
+   }
+}
